@@ -10,6 +10,11 @@
 
 }
 
+h2{
+  font-size: 0.75rem;
+  font-weight: normal ;
+}
+
 .nav_logo {
   width: 82.02px;
   height: 25.35px;
@@ -33,6 +38,45 @@
 .hero_desc {
   font-size: 16px;
   width: 70%;
+}
+.course_image {
+  width: 176px;
+  height: 235px;
+  border-radius: 9px;
+}
+.courses_component{
+  margin-left: 37px;
+  font-size: 0.75rem;
+}
+.course_info {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+
+.course_star_image {
+  width: 14px;
+  height: 14px;
+}
+.course_info  > span{
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  margin: 0 2px;
+}
+.course_info  
+> .course_count_students, .course_country{
+  color: #918E9B;
+}
+.course_title {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.course_price {
+  margin-top: 3px;
+}
+.bold {
+  font-weight: bold;
 }
 body {
   margin: 0;
